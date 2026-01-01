@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===================================
+   Custom Component Classes
+   =================================== */
+
+@layer components {
+  /* Typography - Headings */
+  .heading-1 {
+    @apply text-4xl font-bold text-neutral-900 leading-tight;
+  }
+  
+  .heading-2 {
+    @apply text-3xl font-bold text-neutral-900 leading-snug;
+  }
+  
+  .heading-3 {
+    @apply text-2xl font-bold text-neutral-900 leading-normal;
+  }
+  
+  .heading-4 {
+    @apply text-xl font-bold text-neutral-900 leading-7;
+  }
+  
+  .heading-5 {
+    @apply text-lg font-semibold text-neutral-900 leading-7;
+  }
+
+  /* Typography - Special Titles */
+  .page-title {
+    @apply self-stretch text-center text-neutral-900 text-xl font-bold font-sans leading-7;
+  }
+  
+  .welcome-title {
+    @apply self-stretch text-center justify-start text-neutral-900 text-xl font-bold font-sans leading-7;
+  }
+
+  /* Typography - Body Text */
+  .text-body {
+    @apply text-base text-neutral-700 leading-relaxed;
+  }
+  
+  .text-body-sm {
+    @apply text-sm text-neutral-600 leading-relaxed;
+  }
+  
+  .text-subtitle {
+    @apply  text-neutral-900 text-base font-normal font-sans leading-normal;
+  }
+
+  /* Buttons */
+  .btn-primary {
+    @apply px-4 py-2 bg-sky-500 text-white rounded-lg hover:bg-sky-600 transition-all duration-200 font-semibold shadow-md hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 bg-gray-100 text-neutral-900 rounded-lg border-none
+           hover:bg-gray-200 transition-all duration-200 font-semibold;
+  }
+  
+  .btn-outline {
+    @apply px-4 py-2 bg-transparent text-sky-500 border-2 border-sky-500 
+           rounded-lg hover:bg-sky-50 transition-all duration-200 font-semibold;
+  }
+
+  /* Cards */
+  .card {
+    @apply bg-white rounded-lg shadow-md hover:shadow-lg 
+           transition-shadow duration-200 p-6;
+  }
+  
+  .card-interactive {
+    @apply bg-white rounded-lg shadow-md hover:shadow-xl 
+           transition-all duration-200 p-6 cursor-pointer hover:-translate-y-1;
+  }
+
+  /* Forms */
+  .input-field {
+    @apply appearance-none relative block w-full px-4 py-3 
+    border border-gray-300 placeholder-gray-500 text-gray-900 rounded-lg 
+    focus:outline-none focus:ring-2 focus:ring-sky-500
+      focus:border-transparent transition;
+  }
+
+  .checkbox-primary {
+    @apply h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded;
+  }
+
+  .form-label-inline {
+    @apply ml-2 block text-sm text-gray-700;
+  }
+
+  /* Links */
+  .link-primary {
+    @apply text-sky-500 hover:text-sky-600 transition;
+  }
+
+  /* Social Login Buttons */
+  .btn-social {
+    @apply w-full inline-flex justify-center py-2.5 px-4 border border-gray-300 
+           rounded-lg shadow-sm bg-white text-sm font-medium text-gray-700 
+           hover:bg-gray-50 transition;
+  }
+
+  /* Layout */
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12;
+  }
+  
+  .centered-content {
+    @apply flex flex-col items-center justify-center text-center;
+  }
+}

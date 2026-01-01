@@ -1,0 +1,11 @@
+// Export all models from a central location
+export { User, type IUser } from './user.model'
+export { Session, type ISession } from './session.model'
+export { Course, type ICourse } from './course.model'
+export { Section, type ISection } from './section.model'
+export { Lesson, type ILesson } from './lesson.model'
+export { Enrollment, type IEnrollment } from './enrollment.model'
+export { Review, type IReview } from './review.model'
+export { Forum, type IForum } from './forum.model'
+export { Payment, type IPayment } from './payment.model'
+export { Cart, type ICart } from './cart.model'

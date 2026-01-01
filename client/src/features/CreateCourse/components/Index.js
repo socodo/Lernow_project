@@ -1,0 +1,8 @@
+export { default as BasicInfo } from './BasicInfo'
+export { default as Content } from './Content'
+export { default as Curriculum } from './Curriculum'
+export { default as Settings } from './Settings'
+export { default as CourseInfo } from './CourseInfo'
+export { default as CourseHeader } from './CourseHeader'
+export { default as CourseTabs } from './CourseTabs'
+export { default as DynamicList } from './DynamicList'

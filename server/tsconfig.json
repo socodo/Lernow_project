@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "esModuleInterop": true,
+    "target": "es6",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@config/*": [
+        "src/config/*"
+      ],
+      "@controllers/*": [
+        "src/controller/*"
+      ],
+      "@models/*": [
+        "src/models/*"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@middlewares/*": [
+        "src/middlewares/*"
+      ],
+      "@routes/*": [
+        "src/router/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@types/*": [
+        "src/types/*"
+      ],
+      "@validations/*": [
+        "src/validations/*"
+      ],
+      "@database/*": [
+        "src/database/*"
+      ]
+    }
+  }
+}
